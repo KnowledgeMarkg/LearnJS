@@ -57,4 +57,22 @@ console.log(num>=0); // true
 // === ------------------> === check value and data type
 
 
+// =====================================================
 
+const id = Symbol('1233');
+const anotherId = Symbol('1233');
+console.log(id === anotherId);  // false   
+
+// ============================================================================ Non Primitive DataType or Reference type
+
+const suprHero = ["Shaktiman" , "Junior G" , "Shaka laka Boom boom"];
+
+const myDetails = {
+    myName : "kausar Raza",
+    myAge  : 22,
+    myState : "Uttar Pradesh"
+}
+
+const myFuction = function(){
+    console.log("My name is " +suprHero);
+}
